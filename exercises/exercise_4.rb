@@ -17,4 +17,4 @@ store6 = Store.create(name: "Yaletown", annual_revenue: 430000, mens_apparel: tr
 
 @womens_stores = Store.where(womens_apparel: true, annual_revenue: 1000000..-Float::INFINITY)
 
-puts @womens_stores
+puts @womens_stores 
