@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+user_store_name = "Calgary"
+store7 = Store.create(name: user_store_name)
+puts store7.errors.messages
